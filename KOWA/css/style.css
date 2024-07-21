@@ -1,0 +1,130 @@
+/* Reset básico */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17, 49, 1);
+    height: 70px;
+    padding: 0 20px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: solid 1px #fff;
+    border-radius: 30px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+}
+
+.items a {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/* Body */
+.container-login {
+    background-image: url(../img/seealpsee-lake-switzerland-rowing-boat-mirror-lake-mountain-3840x2160-6649.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shadow-opa {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 40%;
+    padding: 40px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login {
+    text-align: center;
+    width: 100%;
+}
+
+.login img {
+    width: 100px;
+}
+
+h1 {
+    padding-bottom: 25px;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.formulario {
+    width: 100%;
+    text-align: center;
+}
+
+input[type=email], input[type=password] {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: rgb(17, 49, 1);
+    color: #fff;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-login h1, .container-login p {
+    color: #fff;
+    text-shadow: #000 2px 2px 2px;
+}
+
+a {
+    color: #fff;
+    text-shadow: #000 2px 2px 2px;
+}
+
+.criar-home {
+    padding-top: 20px;
+}
+
+/* Footer */
+.footer {
+    color: #b4afaf65;
+    text-shadow: #00000053 2px 2px 2px;
+    text-align: center;
+    padding-top: 60px;
+}
